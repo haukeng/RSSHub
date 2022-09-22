@@ -898,6 +898,19 @@
       }
     ]
   },
+  "anquanke.com": {
+    "_name": "安全客",
+    ".": [
+      {
+        "title": "分类订阅",
+        "docs": "https://docs.rsshub.app/programming.html#an-quan-ke",
+        "source": [
+          "/:category",
+          "/"
+        ]
+      }
+    ]
+  },
   "apnews.com": {
     "_name": "AP News",
     ".": [
@@ -1255,7 +1268,17 @@
     ]
   },
   "baidu.com": {
-    "_name": "贴吧",
+    "_name": "百度",
+    "gushitong": [
+      {
+        "title": "首页指数",
+        "docs": "https://docs.rsshub.app/finance.html#bai-du-gu-shi-tong",
+        "source": [
+          "/"
+        ],
+        "target": "/gushitong/index"
+      }
+    ],
     "tieba": [
       {
         "title": "帖子列表",
@@ -1346,7 +1369,7 @@
         "source": [
           "/"
         ],
-        "target": "/bangumi"
+        "target": "/bangumi/moe"
       },
       {
         "title": "标签",
@@ -1354,7 +1377,7 @@
         "source": [
           "/search/index"
         ],
-        "target": "/bangumi/:tags?"
+        "target": "/bangumi/moe/:tags?"
       }
     ]
   },
@@ -1368,6 +1391,124 @@
           "/"
         ],
         "target": "/bangumi/online"
+      }
+    ]
+  },
+  "bangumi.tv": {
+    "_name": "Bangumi 番组计划",
+    ".": [
+      {
+        "title": "小组话题",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/group/:id",
+        "target": "/bangumi/tv/group/:id"
+      },
+      {
+        "title": "小组话题的新回复",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/group/topic/:id",
+        "target": "/bangumi/tv/topic/:id"
+      },
+      {
+        "title": "现实人物的新作品",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/person/:id",
+        "target": "/bangumi/tv/person/:id"
+      },
+      {
+        "title": "用户日志",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/user/:id",
+        "target": "/bangumi/tv/user/blog/:id"
+      },
+      {
+        "title": "条目的讨论",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/subject/:id",
+        "target": "/bangumi/tv/subject/:id/topics"
+      },
+      {
+        "title": "条目的评论",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/subject/:id",
+        "target": "/bangumi/tv/subject/:id/blogs"
+      },
+      {
+        "title": "条目的章节",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/subject/:id",
+        "target": "/bangumi/tv/subject/:id"
+      },
+      {
+        "title": "条目的吐槽箱",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/subject/:id",
+        "target": "/bangumi/tv/subject/:id/comments"
+      },
+      {
+        "title": "放送列表",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/calendar",
+        "target": "/bangumi/tv/calendar/today"
+      }
+    ]
+  },
+  "bgm.tv": {
+    "_name": "Bangumi 番组计划",
+    ".": [
+      {
+        "title": "小组话题",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/group/:id",
+        "target": "/bangumi/tv/group/:id"
+      },
+      {
+        "title": "小组话题的新回复",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/group/topic/:id",
+        "target": "/bangumi/tv/topic/:id"
+      },
+      {
+        "title": "现实人物的新作品",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/person/:id",
+        "target": "/bangumi/tv/person/:id"
+      },
+      {
+        "title": "用户日志",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/user/:id",
+        "target": "/bangumi/tv/user/blog/:id"
+      },
+      {
+        "title": "条目的讨论",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/subject/:id",
+        "target": "/bangumi/tv/subject/:id/topics"
+      },
+      {
+        "title": "条目的评论",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/subject/:id",
+        "target": "/bangumi/tv/subject/:id/blogs"
+      },
+      {
+        "title": "条目的章节",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/subject/:id",
+        "target": "/bangumi/tv/subject/:id"
+      },
+      {
+        "title": "条目的吐槽箱",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/subject/:id",
+        "target": "/bangumi/tv/subject/:id/comments"
+      },
+      {
+        "title": "放送列表",
+        "docs": "https://docs.rsshub.app/anime.html#bangumi",
+        "source": "/calendar",
+        "target": "/bangumi/tv/calendar/today"
       }
     ]
   },
@@ -1497,6 +1638,16 @@
         "target": "/bilibili/user/video-all/:uid"
       },
       {
+        "title": "UP 主频道的合集",
+        "docs": "https://docs.rsshub.app/social-media.html#bilibili",
+        "source": "/:uid/channel/collectiondetail"
+      },
+      {
+        "title": "UP 主频道的视频列表",
+        "docs": "https://docs.rsshub.app/social-media.html#bilibili",
+        "source": "/:uid/channel/seriesdetail"
+      },
+      {
         "title": "UP 主专栏",
         "docs": "https://docs.rsshub.app/social-media.html#bilibili",
         "source": "/:uid",
@@ -1531,11 +1682,6 @@
         "docs": "https://docs.rsshub.app/social-media.html#bilibili",
         "source": "/:uid",
         "target": "/bilibili/user/bangumi/:uid"
-      },
-      {
-        "title": "当前合集",
-        "docs": "https://docs.rsshub.app/social-media.html#bilibili",
-        "source": "/:uid/channel/collectiondetail"
       }
     ],
     "manga": [
@@ -4395,6 +4541,29 @@
       }
     ]
   },
+  "fastbull.cn": {
+    "_name": "法布财经",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/finance.html#fa-bu-cai-jing-xin-wen",
+        "source": [
+          "/news",
+          "/"
+        ],
+        "target": "/fastbull/news"
+      },
+      {
+        "title": "快讯",
+        "docs": "https://docs.rsshub.app/finance.html#fa-bu-cai-jing-kuai-xun",
+        "source": [
+          "/express-news",
+          "/"
+        ],
+        "target": "/fastbull/express-news"
+      }
+    ]
+  },
   "fda.gov": {
     "_name": "U.S. Food and Drug Administration",
     ".": [
@@ -4838,6 +5007,17 @@
           "/"
         ],
         "target": "/gf-cn/news/:category?"
+      }
+    ]
+  },
+  "gihyo.jp": {
+    "_name": "gihyo.jp",
+    ".": [
+      {
+        "title": "記事一覧",
+        "docs": "https://docs.rsshub.app/programming.html#gihyo-jp",
+        "source": "/list/group/:id",
+        "target": "/gihyo/list/group/:id"
       }
     ]
   },
@@ -6201,6 +6381,20 @@
       }
     ]
   },
+  "hitwh.edu.cn": {
+    "_name": "哈尔滨工业大学（威海）",
+    ".": [
+      {
+        "title": "今日工大 - 通知公告",
+        "docs": "https://docs.rsshub.app/university.html#ha-er-bin-gong-ye-da-xue-wei-hai",
+        "source": [
+          "/1024/list.htm",
+          "/"
+        ],
+        "target": "/hitwh/today"
+      }
+    ]
+  },
   "hizh.cn": {
     "_name": "珠海网",
     ".": [
@@ -6824,6 +7018,20 @@
           "/extras/indybest/gadgets-tech/video-games-consoles/ps5-stock-uk-restock-live-today-b1938965.html"
         ],
         "target": "/ps5-stock-uk"
+      }
+    ]
+  },
+  "indiansinkuwait.com": {
+    "_name": "Indians in Kuwait",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/en/new-media.html#indians-in-kuwait",
+        "source": [
+          "/latest-news",
+          "/"
+        ],
+        "target": "/indiansinkuwait/latest"
       }
     ]
   },
@@ -12894,6 +13102,27 @@
       }
     ]
   },
+  "secrss.com": {
+    "_name": "安全内参",
+    ".": [
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/programming.html#an-quan-nei-can",
+        "source": [
+          "/articles",
+          "/"
+        ]
+      },
+      {
+        "title": "作者",
+        "docs": "https://docs.rsshub.app/programming.html#an-quan-nei-can",
+        "source": [
+          "/articles",
+          "/"
+        ]
+      }
+    ]
+  },
   "seekingalpha.com": {
     "_name": "Seeking Alpha",
     ".": [
@@ -14111,7 +14340,7 @@
         ]
       },
       {
-        "title": "列表",
+        "title": "栏目",
         "docs": "https://docs.rsshub.app/traditional-media.html#peng-pai-xin-wen-lie-biao",
         "source": [
           "/"
@@ -15204,6 +15433,18 @@
       }
     ]
   },
+  "web3caff.com": {
+    "_name": "web3caff",
+    ".": [
+      {
+        "title": "发现",
+        "docs": "https://docs.rsshub.app/new-media.html#web3caff-fa-xian",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
   "careerengine.us": {
     "_name": "微信",
     "posts": [
@@ -15483,6 +15724,19 @@
           "/wizfile/download"
         ],
         "target": "/wizfile/updates"
+      }
+    ]
+  },
+  "worldjournal.com": {
+    "_name": "世界新聞網",
+    ".": [
+      {
+        "title": "新聞",
+        "docs": "https://docs.rsshub.app/new-media.html#shi-jie-xin-wen-wang",
+        "source": [
+          "/wj/*path"
+        ],
+        "target": "/worldjournal/:path"
       }
     ]
   },
@@ -15829,6 +16083,20 @@
           "/"
         ],
         "target": "/xueqiu/hots"
+      }
+    ]
+  },
+  "xwlb.com.cn": {
+    "_name": "新闻联播直播",
+    ".": [
+      {
+        "title": "新闻联播文字版完整版",
+        "docs": "https://docs.rsshub.app/traditional-media.html#yang-shi-xin-wen",
+        "source": [
+          "/cctv.html",
+          "/"
+        ],
+        "target": "/xwlb"
       }
     ]
   },
@@ -16273,6 +16541,63 @@
           "/news/world"
         ],
         "target": "/zaobao/znews/world"
+      }
+    ]
+  },
+  "zcool.com.cn": {
+    "_name": "站酷",
+    "www": [
+      {
+        "title": "发现",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": [
+          "/discover",
+          "/"
+        ]
+      },
+      {
+        "title": "发现 - 精选 - 全部推荐",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": "",
+        "target": "/zcool/discover/all"
+      },
+      {
+        "title": "发现 - 精选 - 首页推荐",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": "",
+        "target": "/zcool/discover/home"
+      },
+      {
+        "title": "发现 - 精选 - 编辑精选",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": "",
+        "target": "/zcool/discover/home"
+      },
+      {
+        "title": "发现 - 精选 - 文章 - 编辑精选",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": "",
+        "target": "/zcool/discover/article"
+      },
+      {
+        "title": "作品榜单",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": "",
+        "target": "/zcool/top/design"
+      },
+      {
+        "title": "文章榜单",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": "",
+        "target": "/zcool/top/article"
+      },
+      {
+        "title": "用户作品",
+        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
+        "source": [
+          "/u/:id"
+        ],
+        "target": "/zcool/user/:id"
       }
     ]
   },
@@ -17241,61 +17566,6 @@
       }
     ]
   },
-  "zcool.com.cn": {
-    "_name": "站酷",
-    "www": [
-      {
-        "title": "发现",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": "",
-        "target": "/zcool/discover"
-      },
-      {
-        "title": "发现 - 精选 - 全部推荐",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": "",
-        "target": "/zcool/discover/all"
-      },
-      {
-        "title": "发现 - 精选 - 首页推荐",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": "",
-        "target": "/zcool/discover/home"
-      },
-      {
-        "title": "发现 - 精选 - 编辑精选",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": "",
-        "target": "/zcool/discover/home"
-      },
-      {
-        "title": "发现 - 精选 - 文章 - 编辑精选",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": "",
-        "target": "/zcool/discover/article"
-      },
-      {
-        "title": "作品榜单",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": "",
-        "target": "/zcool/top/design"
-      },
-      {
-        "title": "文章榜单",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": "",
-        "target": "/zcool/top/article"
-      },
-      {
-        "title": "用户作品",
-        "docs": "https://docs.rsshub.app/design.html#zhan-ku",
-        "source": [
-          "/u/:id"
-        ],
-        "target": "/zcool/user/:id"
-      }
-    ]
-  },
   "zhuixinfan.com": {
     "_name": "追新番日剧站",
     ".": [
@@ -17801,65 +18071,6 @@
         "docs": "https://docs.rsshub.app/social-media.html#fur-affinity",
         "source": "/journal/:id/",
         "target": "/furaffinity/journal_comments/:id"
-      }
-    ]
-  },
-  "bgm.tv": {
-    "_name": "Bangumi",
-    ".": [
-      {
-        "title": "小组话题",
-        "docs": "https://docs.rsshub.app/anime.html#bangumi",
-        "source": "/group/:id",
-        "target": "/bangumi/group/:id"
-      },
-      {
-        "title": "小组话题的新回复",
-        "docs": "https://docs.rsshub.app/anime.html#bangumi",
-        "source": "/group/topic/:id",
-        "target": "/bangumi/topic/:id"
-      },
-      {
-        "title": "现实人物的新作品",
-        "docs": "https://docs.rsshub.app/anime.html#bangumi",
-        "source": "/person/:id",
-        "target": "/bangumi/person/:id"
-      },
-      {
-        "title": "用户日志",
-        "docs": "https://docs.rsshub.app/anime.html#bangumi",
-        "source": "/user/:id",
-        "target": "/bangumi/user/blog/:id"
-      },
-      {
-        "title": "条目的讨论",
-        "docs": "https://docs.rsshub.app/anime.html#bangumi",
-        "source": "/subject/:id",
-        "target": "/bangumi/subject/:id/topics"
-      },
-      {
-        "title": "条目的评论",
-        "docs": "https://docs.rsshub.app/anime.html#bangumi",
-        "source": "/subject/:id",
-        "target": "/bangumi/subject/:id/blogs"
-      },
-      {
-        "title": "条目的章节",
-        "docs": "https://docs.rsshub.app/anime.html#bangumi",
-        "source": "/subject/:id",
-        "target": "/bangumi/subject/:id"
-      },
-      {
-        "title": "条目的吐槽箱",
-        "docs": "https://docs.rsshub.app/anime.html#bangumi",
-        "source": "/subject/:id",
-        "target": "/bangumi/subject/:id/comments"
-      },
-      {
-        "title": "放送列表",
-        "docs": "https://docs.rsshub.app/anime.html#bangumi",
-        "source": "/calendar",
-        "target": "/bangumi/calendar/today"
       }
     ]
   },
