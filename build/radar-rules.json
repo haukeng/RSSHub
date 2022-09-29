@@ -458,6 +458,15 @@
           "/"
         ],
         "target": "/8world/:category?"
+      },
+      {
+        "title": "标签",
+        "docs": "https://docs.rsshub.app/new-media.html#_8-shi-jie-biao-qian",
+        "source": [
+          "/topic/:id",
+          "/"
+        ],
+        "target": "/8world/topic/:id"
       }
     ]
   },
@@ -2801,6 +2810,28 @@
       }
     ]
   },
+  "cnbc.com": {
+    "_name": "CNBC",
+    "search": [
+      {
+        "title": "全文 RSS",
+        "docs": "https://docs.rsshub.app/traditional-media.html#cnbc",
+        "source": [
+          "/rs/search/combinedcms/view.xml"
+        ]
+      }
+    ],
+    "www": [
+      {
+        "title": "全文 RSS",
+        "docs": "https://docs.rsshub.app/traditional-media.html#cnbc",
+        "source": [
+          "/id/:id/device/rss/rss.html"
+        ],
+        "target": "/cnbc/rss/:id"
+      }
+    ]
+  },
   "cnbeta.com": {
     "_name": "cnBeta",
     ".": [
@@ -4541,6 +4572,19 @@
       }
     ]
   },
+  "fantia.jp": {
+    "_name": "Fantia",
+    ".": [
+      {
+        "title": "用户投稿",
+        "docs": "https://docs.rsshub.app/picture.html#fantia",
+        "source": [
+          "/fanclubs/:id"
+        ],
+        "target": "/fantia/user/:id"
+      }
+    ]
+  },
   "fastbull.cn": {
     "_name": "法布财经",
     ".": [
@@ -4603,6 +4647,29 @@
           "/"
         ],
         "target": "/filmdeepfocus/:category?"
+      }
+    ]
+  },
+  "finviz.com": {
+    "_name": "finviz",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/finance.html#finviz-news",
+        "source": [
+          "/news.ashx",
+          "/"
+        ],
+        "target": "/finviz/:category?"
+      },
+      {
+        "title": "US Stock News",
+        "docs": "https://docs.rsshub.app/finance.html#finviz-mei-gu-gu-piao-xin-wen",
+        "source": [
+          "/quote.ashx",
+          "/"
+        ],
+        "target": "/finviz/news/:category?"
       }
     ]
   },
@@ -4966,6 +5033,42 @@
         "docs": "https://docs.rsshub.app/university.html#guang-dong-gong-ye-da-xue-tong-zhi-gong-wen-wang",
         "source": "/seeyon",
         "target": "/gdut/oa_news/"
+      }
+    ]
+  },
+  "gelonghui.com": {
+    "_name": "格隆汇",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/finance.html#ge-long-hui",
+        "source": [
+          "/tag/:tag",
+          "/"
+        ]
+      },
+      {
+        "title": "搜索关键字",
+        "docs": "https://docs.rsshub.app/finance.html#ge-long-hui",
+        "source": [
+          "/search"
+        ]
+      },
+      {
+        "title": "主题文章",
+        "docs": "https://docs.rsshub.app/finance.html#ge-long-hui",
+        "source": [
+          "/subject/:id"
+        ],
+        "target": "/gelonghui/subject/:id"
+      },
+      {
+        "title": "用户文章",
+        "docs": "https://docs.rsshub.app/finance.html#ge-long-hui",
+        "source": [
+          "/user/:id"
+        ],
+        "target": "/gelonghui/user/:id"
       }
     ]
   },
@@ -5352,6 +5455,18 @@
         "docs": "https://docs.rsshub.app/government.html#bei-jing-shi-wei-sheng-jian-kang-wei-yuan-hui",
         "source": "/xwzx_20031/:caty",
         "target": "/gov/beijing/mhc/:caty"
+      }
+    ]
+  },
+  "ccdi.gov.cn": {
+    "_name": "中央纪委国家监委",
+    "www": [
+      {
+        "title": "要闻",
+        "docs": "https://docs.rsshub.app/government.html#zhong-yang-ji-wei-guo-jia-jian-wei-yao-wen",
+        "source": [
+          "/*"
+        ]
       }
     ]
   },
@@ -5790,6 +5905,18 @@
       }
     ]
   },
+  "stats.gov.cn": {
+    "_name": "国家统计局",
+    "www": [
+      {
+        "title": "统计数据 > 最新发布",
+        "docs": "https://docs.rsshub.app/government.html#guo-jia-tong-ji-ju-tong-ji-shu-ju-zui-xin-fa-bu",
+        "source": [
+          "/*"
+        ]
+      }
+    ]
+  },
   "sz.gov.cn": {
     "_name": "深圳政府在线移动门户",
     "hrss": [
@@ -5798,6 +5925,16 @@
         "docs": "https://docs.rsshub.app/government.html#guang-dong-sheng-ren-min-zheng-fu-shen-zhen-shi-wei-zu-zhi-bu",
         "source": [
           "/*"
+        ],
+        "target": "/gov/shenzhen/hrss/szksy/:caty/:page?"
+      }
+    ],
+    "xxgk": [
+      {
+        "title": "深圳市人民政府",
+        "docs": "https://docs.rsshub.app/government.html#guang-dong-sheng-ren-min-zheng-fu-guang-dong-sheng-shen-zhen-shi-ren-min-zheng-fu",
+        "source": [
+          "/cn/xxgk/zfxxgj/:caty"
         ],
         "target": "/gov/shenzhen/hrss/szksy/:caty/:page?"
       }
@@ -9085,6 +9222,29 @@
           "/topics/影音專區"
         ],
         "target": "/knowmedia/yyzq"
+      }
+    ]
+  },
+  "kuwaitlocal.com": {
+    "_name": "Kuwait Local",
+    ".": [
+      {
+        "title": "Latest News",
+        "docs": "https://docs.rsshub.app/en/new-media.html#kuwait-local",
+        "source": [
+          "/news/latest",
+          "/news",
+          "/"
+        ],
+        "target": "/kuwaitlocal"
+      },
+      {
+        "title": "Categorised News",
+        "docs": "https://docs.rsshub.app/en/new-media.html#kuwait-local",
+        "source": [
+          "/news/categories/:category"
+        ],
+        "target": "/kuwaitlocal/:category"
       }
     ]
   },
@@ -12782,6 +12942,16 @@
       }
     ]
   },
+  "saraba1st.com": {
+    "_name": "Saraba1st",
+    "bbs": [
+      {
+        "title": "帖子",
+        "docs": "https://docs.rsshub.app/bbs.html#saraba1st",
+        "source": "/2b/:id"
+      }
+    ]
+  },
   "science.org": {
     "_name": "Science Magazine",
     ".": [
@@ -14244,6 +14414,29 @@
       }
     ]
   },
+  "theinitium.com": {
+    "_name": "端传媒",
+    ".": [
+      {
+        "title": "专题・栏目",
+        "docs": "https://docs.rsshub.app/new-media.html#duan-chuan-mei",
+        "source": "/channel/:type",
+        "target": "/theinitium/channel/:type"
+      },
+      {
+        "title": "话题・标签",
+        "docs": "https://docs.rsshub.app/new-media.html#duan-chuan-mei",
+        "source": "/tags/:type",
+        "target": "/theinitions/tags/:type"
+      },
+      {
+        "title": "作者",
+        "docs": "https://docs.rsshub.app/new-media.html#duan-chuan-mei",
+        "source": "/author/:type",
+        "target": "/theinitium/author/:type"
+      }
+    ]
+  },
   "thenewslens.com": {
     "_name": "The News Lens 關鍵評論",
     ".": [
@@ -15088,6 +15281,20 @@
           "/reports/brokerage_news"
         ],
         "target": "/ulapia/reports/brokerage_news"
+      }
+    ]
+  },
+  "unusualwhales.com": {
+    "_name": "Unusual Whales",
+    ".": [
+      {
+        "title": "News Flow",
+        "docs": "https://docs.rsshub.app/en/finance.html#unusual-whales",
+        "source": [
+          "/news",
+          "/"
+        ],
+        "target": "/unusualwhales/news"
       }
     ]
   },
@@ -16225,6 +16432,47 @@
           "/author"
         ],
         "target": "/yicai/author/:id"
+      }
+    ]
+  },
+  "yoasobi-music.jp": {
+    "_name": "Yoasobi Official",
+    "www": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/en/live.html#yoasobi",
+        "source": [
+          "/",
+          "/:category"
+        ],
+        "target": "/yoasobi-music/info/:category"
+      },
+      {
+        "title": "Biography",
+        "docs": "https://docs.rsshub.app/en/live.html#yoasobi",
+        "source": [
+          "/",
+          "/:category"
+        ],
+        "target": "/yoasobi-music/info/:category"
+      },
+      {
+        "title": "Live",
+        "docs": "https://docs.rsshub.app/en/live.html#yoasobi",
+        "source": [
+          "/",
+          "/live"
+        ],
+        "target": "/yoasobi-music/live"
+      },
+      {
+        "title": "Media",
+        "docs": "https://docs.rsshub.app/en/live.html#yoasobi",
+        "source": [
+          "/",
+          "/media"
+        ],
+        "target": "/yoasobi-music/media"
       }
     ]
   },
@@ -17927,16 +18175,6 @@
       {
         "title": "商品搜索列表",
         "docs": "https://docs.rsshub.app/shopping.html#craigslist"
-      }
-    ]
-  },
-  "saraba1st.com": {
-    "_name": "Saraba1st",
-    "bbs": [
-      {
-        "title": "帖子",
-        "docs": "https://docs.rsshub.app/bbs.html#saraba1st",
-        "source": "/2b/:id"
       }
     ]
   },
