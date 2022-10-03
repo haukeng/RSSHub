@@ -206,6 +206,15 @@
     "/aliyundrive/files/:share_id/:parent_file_id?": [
         "DIYgod"
     ],
+    "/aljazeera/:language?/:category?": [
+        "nczitzk"
+    ],
+    "/aljazeera/:language?/tag/:id": [
+        "nczitzk"
+    ],
+    "/aljazeera/:language?/rss": [
+        "nczitzk"
+    ],
     "/allrecode/news": [
         "nczitzk"
     ],
@@ -755,6 +764,9 @@
     ],
     "/cqwu/news/:type?": [
         "Fatpandac"
+    ],
+    "/creative-comic/book/:id/:coverOnly?/:quality?": [
+        "TonyRL"
     ],
     "/csc/notice/:type?": [
         "Derekmini"
@@ -3433,11 +3445,17 @@
     "/swpu/bgw/:code": [
         "CYTMWIA"
     ],
+    "/swpu/cjxy/:code": [
+        "RiverTwilight"
+    ],
     "/swpu/dean/:code": [
         "CYTMWIA"
     ],
     "/swpu/dxy/:code": [
         "CYTMWIA"
+    ],
+    "/swpu/is/:code": [
+        "RiverTwilight"
     ],
     "/swpu/scs/:code": [
         "CYTMWIA"
@@ -4073,6 +4091,9 @@
     ],
     "/xueqiu/stock_info/:id/:type?": [
         "YuYang"
+    ],
+    "/xueqiu/today": [
+        "nczitzk"
     ],
     "/xueqiu/user/:id/:type?": [
         "imlonghao"
@@ -5297,7 +5318,6 @@
     "/grubstreet": [],
     "/manhuadui/manhua/:name/:serial?": [],
     "/fzdm/manhua/:id": [],
-    "/aljazeera/news": [],
     "/cfd/gbp_div": [],
     "/monotype/article": [],
     "/stork/keyword/:trackID/:displayKey": [],
