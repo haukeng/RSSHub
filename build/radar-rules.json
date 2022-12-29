@@ -689,12 +689,25 @@
       }
     ]
   },
+  "github.io": {
+    "_name": "GitHub",
+    "agorahub": [
+      {
+        "title": "共和報",
+        "docs": "https://docs.rsshub.app/new-media.html#ag0ra",
+        "source": [
+          "/pen0"
+        ],
+        "target": "/agora0/pen0"
+      }
+    ]
+  },
   "gitlab.io": {
     "_name": "GitLab",
     "agora0": [
       {
         "title": "零博客",
-        "docs": "https://docs.rsshub.app/blog.html#ling-bo-ke-fen-lei",
+        "docs": "https://docs.rsshub.app/new-media.html#ag0ra",
         "source": [
           "/blog/:category",
           "/"
@@ -1362,7 +1375,7 @@
         "source": [
           "/"
         ],
-        "target": "/gushitong/index"
+        "target": "/baidu/gushitong/index"
       }
     ],
     "tieba": [
@@ -1380,13 +1393,13 @@
         "title": "帖子动态",
         "docs": "https://docs.rsshub.app/bbs.html#bai-du-tie-ba",
         "source": "/p/:id",
-        "target": "/tieba/post/:id"
+        "target": "/baidu/tieba/post/:id"
       },
       {
         "title": "只看楼主",
         "docs": "https://docs.rsshub.app/bbs.html#bai-du-tie-ba",
         "source": "/p/:id",
-        "target": "/tieba/post/lz/:id"
+        "target": "/baidu/tieba/post/lz/:id"
       },
       {
         "title": "用户帖子",
@@ -2257,6 +2270,20 @@
       }
     ]
   },
+  "bytes.dev": {
+    "_name": "ui.dev",
+    ".": [
+      {
+        "title": "React Newsletter",
+        "docs": "https://docs.rsshub.app/en/programming.html#ui-dev-bytes",
+        "source": [
+          "/issues",
+          "/"
+        ],
+        "target": "/reactnewsletter"
+      }
+    ]
+  },
   "c114.com.cn": {
     "_name": "C114通信网",
     ".": [
@@ -2308,6 +2335,20 @@
         "docs": "https://docs.rsshub.app/new-media.html#quan-guo-gang-ao-yan-jiu-hui-fen-lei",
         "source": "/",
         "target": "/cahkms/:category?"
+      }
+    ]
+  },
+  "caijing.com.cn": {
+    "_name": "财经网",
+    "roll": [
+      {
+        "title": "滚动新闻",
+        "docs": "https://docs.rsshub.app/finance.html#cai-jing-wang",
+        "source": [
+          "/index1.html",
+          "/"
+        ],
+        "target": "/caijing/roll"
       }
     ]
   },
@@ -2937,12 +2978,12 @@
       }
     ]
   },
-  "cnbeta.com": {
-    "_name": "cnBeta",
+  "cnbeta.com.tw": {
+    "_name": "cnBeta.COM",
     ".": [
       {
-        "title": "最新",
-        "docs": "https://docs.rsshub.app/new-media.html#cnbeta-zuixin",
+        "title": "头条资讯",
+        "docs": "https://docs.rsshub.app/new-media.html#cnbeta-com-tou-tiao-zi-xun",
         "source": [
           "/"
         ],
@@ -2950,7 +2991,7 @@
       },
       {
         "title": "分类",
-        "docs": "https://docs.rsshub.app/new-media.html#cnbeta-fenlei",
+        "docs": "https://docs.rsshub.app/new-media.html#cnbeta-com-fen-lei",
         "source": [
           "/category/:id",
           "/"
@@ -2959,7 +3000,7 @@
       },
       {
         "title": "主题",
-        "docs": "https://docs.rsshub.app/new-media.html#cnbeta-zhuti",
+        "docs": "https://docs.rsshub.app/new-media.html#cnbeta-com-zhu-ti",
         "source": [
           "/topics/:id",
           "/"
@@ -5978,6 +6019,30 @@
       }
     ]
   },
+  "dianbai.gov.cn": {
+    "_name": "茂名市电白区人民政府",
+    "www": [
+      {
+        "title": "茂名市电白区人民政府",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-mao-ming-shi-dian-bai-qu-ren-min-zheng-fu",
+        "source": [
+          "/*"
+        ]
+      }
+    ]
+  },
+  "gaozhou.gov.cn": {
+    "_name": "高州市人民政府",
+    "www": [
+      {
+        "title": "高州市人民政府",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-gao-zhou-shi-ren-min-zheng-fu",
+        "source": [
+          "/*"
+        ]
+      }
+    ]
+  },
   "gz.gov.cn": {
     "_name": "广州市人民政府",
     "www": [
@@ -6026,6 +6091,18 @@
       }
     ]
   },
+  "huazhou.gov.cn": {
+    "_name": "化州市人民政府",
+    "www": [
+      {
+        "title": "化州市人民政府",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-hua-zhou-shi-ren-min-zheng-fu",
+        "source": [
+          "/*"
+        ]
+      }
+    ]
+  },
   "huizhou.gov.cn": {
     "_name": "惠州市人民政府",
     "www": [
@@ -6049,6 +6126,79 @@
         "source": [
           "/zwgk/hzsz/:category"
         ]
+      }
+    ]
+  },
+  "maoming.gov.cn": {
+    "_name": "茂名市人民政府门户网站",
+    ".": [
+      {
+        "title": "茂名市人民政府",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-mao-ming-shi-ren-min-zheng-fu-men-hu-wang-zhan",
+        "source": [
+          "/*"
+        ]
+      }
+    ]
+  },
+  "maonan.gov.cn": {
+    "_name": "茂名市茂南区人民政府",
+    ".": [
+      {
+        "title": "政务公开",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-mao-ming-shi-mao-nan-qu-ren-min-zheng-fu",
+        "source": [
+          "/zwgk/*"
+        ],
+        "target": "/gov/maonan/zwgk"
+      },
+      {
+        "title": "政务新闻",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-mao-ming-shi-mao-nan-qu-ren-min-zheng-fu",
+        "source": [
+          "/zwxw/*"
+        ],
+        "target": "/gov/maonan/zwxw"
+      },
+      {
+        "title": "茂南动态",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-mao-ming-shi-mao-nan-qu-ren-min-zheng-fu",
+        "source": [
+          "/zwxw/mndt/*"
+        ],
+        "target": "/gov/maonan/mndt"
+      },
+      {
+        "title": "重大会议",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-mao-ming-shi-mao-nan-qu-ren-min-zheng-fu",
+        "source": [
+          "/zwxw/zdhy/*"
+        ],
+        "target": "/gov/maonan/zdhy"
+      },
+      {
+        "title": "公告公示",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-mao-ming-shi-mao-nan-qu-ren-min-zheng-fu",
+        "source": [
+          "/zwgk/tzgg/*"
+        ],
+        "target": "/gov/maonan/tzgg"
+      },
+      {
+        "title": "招录信息",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-mao-ming-shi-mao-nan-qu-ren-min-zheng-fu",
+        "source": [
+          "/zwgk/zlxx/*"
+        ],
+        "target": "/gov/maonan/zlxx"
+      },
+      {
+        "title": "政策解读",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-mao-ming-shi-mao-nan-qu-ren-min-zheng-fu",
+        "source": [
+          "/zwgk/zcjd/*"
+        ],
+        "target": "/gov/maonan/zcjd"
       }
     ]
   },
@@ -6077,6 +6227,18 @@
       }
     ]
   },
+  "mgs.gov.cn": {
+    "_name": "广东茂名滨海新区政务网",
+    "www": [
+      {
+        "title": "广东茂名滨海新区政务网",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-guang-dong-mao-ming-bin-hai-xin-qu-zheng-wu-wang",
+        "source": [
+          "/*"
+        ]
+      }
+    ]
+  },
   "miit.gov.cn": {
     "_name": "工业和信息化部",
     ".": [
@@ -6095,6 +6257,18 @@
           "/gzcy/yjzj/index.html"
         ],
         "target": "/miit/yjzj"
+      }
+    ]
+  },
+  "mmht.gov.cn": {
+    "_name": "广东茂名高新技术产业开发区",
+    "www": [
+      {
+        "title": "茂名高新技术产业开发区政务网",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-guang-dong-mao-ming-gao-xin-ji-shu-chan-ye-kai-fa-qu",
+        "source": [
+          "/*"
+        ]
       }
     ]
   },
@@ -6257,6 +6431,30 @@
       }
     ]
   },
+  "sasac.gov.cn": {
+    "_name": "国务院国有资产监督管理委员会",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/other.html#guo-wu-yuan-guo-you-zi-chan-jian-du-guan-li-wei-yuan-hui",
+        "source": [
+          "/*path"
+        ]
+      }
+    ]
+  },
+  "sdb.gov.cn": {
+    "_name": "广东省茂名水东湾新城建设管理委员会",
+    "www": [
+      {
+        "title": "广东省茂名水东湾新城建设管理委员会",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-guang-dong-sheng-mao-ming-shui-dong-wan-xin-cheng-jian-she-guan-li-wei-yuan-hui",
+        "source": [
+          "/*"
+        ]
+      }
+    ]
+  },
   "sh.gov.cn": {
     "_name": "上海市人民政府",
     "wsjkw": [
@@ -6378,6 +6576,18 @@
           "/gz/weatherAlarm/otherCity/"
         ],
         "target": "/gov/guangdong/tqyb/sncsyjxh"
+      }
+    ]
+  },
+  "xinyi.gov.cn": {
+    "_name": "信宜市人民政府",
+    "www": [
+      {
+        "title": "信宜市人民政府",
+        "docs": "https://docs.rsshub.app/government.html#mao-ming-shi-ren-min-zheng-fu-xin-yi-shi-ren-min-zheng-fu",
+        "source": [
+          "/*"
+        ]
       }
     ]
   },
@@ -12902,6 +13112,19 @@
       }
     ]
   },
+  "paradigm.xyz": {
+    "_name": "Paradigm",
+    ".": [
+      {
+        "title": "Writing",
+        "docs": "https://docs.rsshub.app/finance.html#paradigm",
+        "source": [
+          "/writing"
+        ],
+        "target": "/paradigm/writing"
+      }
+    ]
+  },
   "penguinrandomhouse.com": {
     "_name": "Penguin Random House",
     ".": [
@@ -13583,6 +13806,16 @@
         "source": "/mp/appmsgalbum"
       }
     ],
+    "news": [
+      {
+        "title": "腾讯新闻 - 新型冠状病毒肺炎疫情实时追踪",
+        "docs": "https://docs.rsshub.app/other.html#xin-guan-fei-yan-yi-qing-xin-wen-dong-tai",
+        "source": [
+          "/zt2020/page/feiyan.htm#/"
+        ],
+        "target": "/tencent/news/coronavirus/total"
+      }
+    ],
     "pvp": [
       {
         "title": "王者荣耀 - 新闻中心",
@@ -13746,6 +13979,19 @@
           "/"
         ],
         "target": "/remnote/changelog"
+      }
+    ]
+  },
+  "researchgate.net": {
+    "_name": "ResearchGate",
+    ".": [
+      {
+        "title": "Publications",
+        "docs": "https://docs.rsshub.app/study.html#researchgate",
+        "source": [
+          "/profile/:username"
+        ],
+        "target": "/researchgate/publications/:username"
       }
     ]
   },
@@ -16686,6 +16932,17 @@
       }
     ]
   },
+  "verse.com.tw": {
+    "_name": "VERSE",
+    "www": [
+      {
+        "title": "專文",
+        "docs": "https://docs.rsshub.app/new-media.html#verse",
+        "source": "/articles/:category?",
+        "target": "/verse/articles/:category?"
+      }
+    ]
+  },
   "vimeo.com": {
     "_name": "Vimeo",
     ".": [
@@ -17755,6 +18012,14 @@
           "/co/article"
         ],
         "target": "/ymgal/article/column"
+      },
+      {
+        "title": "本月新作",
+        "docs": "https://docs.rsshub.app/anime.html#yue-mu-galgame",
+        "source": [
+          "/"
+        ],
+        "target": "/ymgal/game/release"
       }
     ]
   },
